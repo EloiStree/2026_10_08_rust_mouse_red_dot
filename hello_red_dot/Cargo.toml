@@ -1,0 +1,7 @@
+[package]
+name = "hello_red_dot"
+version = "0.1.0"
+edition = "2021"    
+
+[dependencies]
+x11rb = { version = "0.13", features = ["shape"] }
